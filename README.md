@@ -1,12 +1,12 @@
-Tidying Up the UCI HAR Dataset
+#Tidying Up the UCI HAR Dataset
 
-Script :run_analysis.R 
+##Script :run_analysis.R 
 
 Function : create a tidy data set from the UCI data set and create a summary of each feature for each activity and subject.
 
 The UCI dataset is assumed to be downloaded and available in the current working directory.
 
-Variables used :
+**Variables** used :
 
 xtrain - data frame created from X_train.txt
 
