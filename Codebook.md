@@ -170,9 +170,10 @@ $ activity                              : Factor w/ 6 levels "LAYING","SITTING",
  $ fBodyBodyGyroJerkMag.std.             : num  -0.382 -0.558 -0.549 -0.758 -0.456 ...
 
  $ fBodyBodyGyroJerkMag.meanFreq.        : num  0.1907 0.1263 0.0458 0.2654 0.0527 ..
+ 
 ....................................
 
-activity - a factor with 6 levels:
+**activity - a factor with 6 levels:**
 
 1 WALKING
 
@@ -188,7 +189,7 @@ activity - a factor with 6 levels:
 
 ....................................
 
-Transformations Applied to the original dataset , UCI-HAR dataset:
+**Transformations Applied to the original dataset , UCI-HAR dataset:**
 
 1. The test and train data ( X-test , X-train ) were combined into one single dataset. A check was made to make sure there are no 'NA'    values before combining.
 
