@@ -28,6 +28,8 @@ activity - created by combining activity_test and activity_train
 
 x.test.train - created by combining xtest and xtrain.
 
+mean.std.cols - a character vector used to hold the variable names from x.test.train whose name contains 'mean' or 'std'
+
 x.test.train.sub - created by extracting only the variables with 'mean' or 'std' measurements from x.test.train.
 
 x.test.train.summary - created from x.test.train.sub listing the mean value for each feature per activity and subject.
